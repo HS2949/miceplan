@@ -39,6 +39,7 @@ class HomeScreenState extends State<HomeScreen> {
       // 각 문서를 맵으로 변환
       final id = doc.id; // 문서 ID 가져오기
       final categoryName = doc['CategoryName'] as String; // 카테고리 이름 가져오기
+      
       return MapEntry(id, categoryName); // MapEntry로 ID와 이름 반환
     });
     setState(() {
@@ -217,4 +218,5 @@ class HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+
 }
