@@ -1,1 +1,7 @@
-flutter/ephemeral
+# Flutter
+build/
+*.lock
+.idea/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
