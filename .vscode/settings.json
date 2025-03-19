@@ -1,0 +1,6 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "cmake.sourceDirectory": "D:/Code/mice_plan/windows"
+}
